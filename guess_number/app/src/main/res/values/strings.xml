@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">guess_number</string>
+    <string name="reset">RESET</string>
+    <string name="ANS">win</string>
+    <string name="guess">guess</string>
 </resources>
