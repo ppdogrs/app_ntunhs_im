@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/city"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/Gender"
+        android:layout_width="255dp"
+        android:layout_height="117dp"
+        android:text="Grender"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/M"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="M" />
+
+        <RadioButton
+            android:id="@+id/F"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F" />
+    </RadioGroup>
+
+    <NumberPicker
+        android:id="@+id/numPicker_Age"
+        android:layout_width="202dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/ch1"
+        android:layout_width="92dp"
+        android:layout_height="46dp"
+        android:text="游泳"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/ch2"
+        android:layout_width="103dp"
+        android:layout_height="51dp"
+        android:text="跑步"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/ch3"
+        android:layout_width="95dp"
+        android:layout_height="51dp"
+        android:text="足球"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.389"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.774"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="535dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
